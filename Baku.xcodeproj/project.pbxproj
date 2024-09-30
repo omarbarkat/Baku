@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1804686F2CAAEC0E00FD1B79 /* BakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */; };
+		180468712CAAEC0E00FD1B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468702CAAEC0E00FD1B79 /* ContentView.swift */; };
+		180468732CAAEC0F00FD1B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468722CAAEC0F00FD1B79 /* Assets.xcassets */; };
+		180468762CAAEC0F00FD1B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */; };
+		180468802CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804687F2CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift */; };
+		1804688A2CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468892CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift */; };
+		1804688C2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1804687C2CAAEC0F00FD1B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180468632CAAEC0D00FD1B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1804686A2CAAEC0E00FD1B79;
+			remoteInfo = "Baku Watch App";
+		};
+		180468862CAAEC0F00FD1B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180468632CAAEC0D00FD1B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1804686A2CAAEC0E00FD1B79;
+			remoteInfo = "Baku Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1804686B2CAAEC0E00FD1B79 /* Baku Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baku Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuApp.swift; sourceTree = "<group>"; };
+		180468702CAAEC0E00FD1B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		180468722CAAEC0F00FD1B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1804687B2CAAEC0F00FD1B79 /* Baku Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baku Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804687F2CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppTests.swift; sourceTree = "<group>"; };
+		180468852CAAEC0F00FD1B79 /* Baku Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baku Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180468892CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180468682CAAEC0E00FD1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468782CAAEC0F00FD1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468822CAAEC0F00FD1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180468622CAAEC0D00FD1B79 = {
+			isa = PBXGroup;
+			children = (
+				1804686D2CAAEC0E00FD1B79 /* Baku Watch App */,
+				1804687E2CAAEC0F00FD1B79 /* Baku Watch AppTests */,
+				180468882CAAEC0F00FD1B79 /* Baku Watch AppUITests */,
+				1804686C2CAAEC0E00FD1B79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1804686C2CAAEC0E00FD1B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1804686B2CAAEC0E00FD1B79 /* Baku Watch App.app */,
+				1804687B2CAAEC0F00FD1B79 /* Baku Watch AppTests.xctest */,
+				180468852CAAEC0F00FD1B79 /* Baku Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1804686D2CAAEC0E00FD1B79 /* Baku Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */,
+				180468702CAAEC0E00FD1B79 /* ContentView.swift */,
+				180468722CAAEC0F00FD1B79 /* Assets.xcassets */,
+				180468742CAAEC0F00FD1B79 /* Preview Content */,
+			);
+			path = "Baku Watch App";
+			sourceTree = "<group>";
+		};
+		180468742CAAEC0F00FD1B79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1804687E2CAAEC0F00FD1B79 /* Baku Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1804687F2CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift */,
+			);
+			path = "Baku Watch AppTests";
+			sourceTree = "<group>";
+		};
+		180468882CAAEC0F00FD1B79 /* Baku Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180468892CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift */,
+				1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Baku Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1804686A2CAAEC0E00FD1B79 /* Baku Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1804688F2CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch App" */;
+			buildPhases = (
+				180468672CAAEC0E00FD1B79 /* Sources */,
+				180468682CAAEC0E00FD1B79 /* Frameworks */,
+				180468692CAAEC0E00FD1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baku Watch App";
+			productName = "Baku Watch App";
+			productReference = 1804686B2CAAEC0E00FD1B79 /* Baku Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1804687A2CAAEC0F00FD1B79 /* Baku Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180468922CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch AppTests" */;
+			buildPhases = (
+				180468772CAAEC0F00FD1B79 /* Sources */,
+				180468782CAAEC0F00FD1B79 /* Frameworks */,
+				180468792CAAEC0F00FD1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1804687D2CAAEC0F00FD1B79 /* PBXTargetDependency */,
+			);
+			name = "Baku Watch AppTests";
+			productName = "Baku Watch AppTests";
+			productReference = 1804687B2CAAEC0F00FD1B79 /* Baku Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180468842CAAEC0F00FD1B79 /* Baku Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180468952CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch AppUITests" */;
+			buildPhases = (
+				180468812CAAEC0F00FD1B79 /* Sources */,
+				180468822CAAEC0F00FD1B79 /* Frameworks */,
+				180468832CAAEC0F00FD1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180468872CAAEC0F00FD1B79 /* PBXTargetDependency */,
+			);
+			name = "Baku Watch AppUITests";
+			productName = "Baku Watch AppUITests";
+			productReference = 180468852CAAEC0F00FD1B79 /* Baku Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180468632CAAEC0D00FD1B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1804686A2CAAEC0E00FD1B79 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1804687A2CAAEC0F00FD1B79 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1804686A2CAAEC0E00FD1B79;
+					};
+					180468842CAAEC0F00FD1B79 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1804686A2CAAEC0E00FD1B79;
+					};
+				};
+			};
+			buildConfigurationList = 180468662CAAEC0D00FD1B79 /* Build configuration list for PBXProject "Baku" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180468622CAAEC0D00FD1B79;
+			productRefGroup = 1804686C2CAAEC0E00FD1B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1804686A2CAAEC0E00FD1B79 /* Baku Watch App */,
+				1804687A2CAAEC0F00FD1B79 /* Baku Watch AppTests */,
+				180468842CAAEC0F00FD1B79 /* Baku Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180468692CAAEC0E00FD1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180468762CAAEC0F00FD1B79 /* Preview Assets.xcassets in Resources */,
+				180468732CAAEC0F00FD1B79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468792CAAEC0F00FD1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468832CAAEC0F00FD1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180468672CAAEC0E00FD1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180468712CAAEC0E00FD1B79 /* ContentView.swift in Sources */,
+				1804686F2CAAEC0E00FD1B79 /* BakuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468772CAAEC0F00FD1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180468802CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180468812CAAEC0F00FD1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804688A2CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift in Sources */,
+				1804688C2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1804687D2CAAEC0F00FD1B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1804686A2CAAEC0E00FD1B79 /* Baku Watch App */;
+			targetProxy = 1804687C2CAAEC0F00FD1B79 /* PBXContainerItemProxy */;
+		};
+		180468872CAAEC0F00FD1B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1804686A2CAAEC0E00FD1B79 /* Baku Watch App */;
+			targetProxy = 180468862CAAEC0F00FD1B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1804688D2CAAEC0F00FD1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1804688E2CAAEC0F00FD1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		180468902CAAEC0F00FD1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baku Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Baku;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		180468912CAAEC0F00FD1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baku Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Baku;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		180468932CAAEC0F00FD1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Baku-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baku Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baku Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		180468942CAAEC0F00FD1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Baku-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baku Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baku Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		180468962CAAEC0F00FD1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Baku-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Baku Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		180468972CAAEC0F00FD1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Baku-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Baku Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180468662CAAEC0D00FD1B79 /* Build configuration list for PBXProject "Baku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1804688D2CAAEC0F00FD1B79 /* Debug */,
+				1804688E2CAAEC0F00FD1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1804688F2CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180468902CAAEC0F00FD1B79 /* Debug */,
+				180468912CAAEC0F00FD1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180468922CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180468932CAAEC0F00FD1B79 /* Debug */,
+				180468942CAAEC0F00FD1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180468952CAAEC0F00FD1B79 /* Build configuration list for PBXNativeTarget "Baku Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180468962CAAEC0F00FD1B79 /* Debug */,
+				180468972CAAEC0F00FD1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180468632CAAEC0D00FD1B79 /* Project object */;
+}
