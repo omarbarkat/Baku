@@ -10,5 +10,25 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1804686A2CAAEC0E00FD1B79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1804687A2CAAEC0F00FD1B79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>180468842CAAEC0F00FD1B79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+        <key>NSHealthUpdateUsageDescription</key>
+        <string>This app requires access to HealthKit to track and save workout data such as your exercise activities and health metrics.</string>
+	</dict>
 </dict>
 </plist>

@@ -7,13 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1804686F2CAAEC0E00FD1B79 /* BakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */; };
-		180468712CAAEC0E00FD1B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468702CAAEC0E00FD1B79 /* ContentView.swift */; };
-		180468732CAAEC0F00FD1B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468722CAAEC0F00FD1B79 /* Assets.xcassets */; };
-		180468762CAAEC0F00FD1B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */; };
 		180468802CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804687F2CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift */; };
 		1804688A2CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468892CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift */; };
 		1804688C2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */; };
+		180468BE2CAAEC4300FD1B79 /* BedroomView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468982CAAEC4300FD1B79 /* BedroomView1.swift */; };
+		180468BF2CAAEC4300FD1B79 /* BedroomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468992CAAEC4300FD1B79 /* BedroomView2.swift */; };
+		180468C02CAAEC4300FD1B79 /* BedroomView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804689A2CAAEC4300FD1B79 /* BedroomView3.swift */; };
+		180468C12CAAEC4300FD1B79 /* BedroomView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804689B2CAAEC4300FD1B79 /* BedroomView4.swift */; };
+		180468C22CAAEC4300FD1B79 /* BedroomView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804689C2CAAEC4300FD1B79 /* BedroomView5.swift */; };
+		180468C32CAAEC4300FD1B79 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804689E2CAAEC4300FD1B79 /* ActivityRingView.swift */; };
+		180468C42CAAEC4300FD1B79 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A02CAAEC4300FD1B79 /* WorkoutManager.swift */; };
+		180468C52CAAEC4300FD1B79 /* CustomView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A22CAAEC4300FD1B79 /* CustomView1.swift */; };
+		180468C62CAAEC4300FD1B79 /* CustomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A32CAAEC4300FD1B79 /* CustomView2.swift */; };
+		180468C72CAAEC4300FD1B79 /* CustomView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A42CAAEC4300FD1B79 /* CustomView3.swift */; };
+		180468C82CAAEC4300FD1B79 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A62CAAEC4300FD1B79 /* ControlView.swift */; };
+		180468C92CAAEC4300FD1B79 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A72CAAEC4300FD1B79 /* MetricsView.swift */; };
+		180468CA2CAAEC4300FD1B79 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468A92CAAEC4300FD1B79 /* SessionPagingView.swift */; };
+		180468CB2CAAEC4300FD1B79 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468AB2CAAEC4300FD1B79 /* WorkoutCell.swift */; };
+		180468CC2CAAEC4300FD1B79 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468AD2CAAEC4300FD1B79 /* StartView.swift */; };
+		180468CD2CAAEC4300FD1B79 /* SummaryMetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468AF2CAAEC4300FD1B79 /* SummaryMetricView.swift */; };
+		180468CE2CAAEC4300FD1B79 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468B12CAAEC4300FD1B79 /* SummaryView.swift */; };
+		180468CF2CAAEC4300FD1B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468B42CAAEC4300FD1B79 /* Preview Assets.xcassets */; };
+		180468D02CAAEC4300FD1B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180468B62CAAEC4300FD1B79 /* Assets.xcassets */; };
+		180468D12CAAEC4300FD1B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468B72CAAEC4300FD1B79 /* ContentView.swift */; };
+		180468D22CAAEC4300FD1B79 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468B82CAAEC4300FD1B79 /* SplashScreen.swift */; };
+		180468D32CAAEC4300FD1B79 /* WatchCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468B92CAAEC4300FD1B79 /* WatchCommunicationManager.swift */; };
+		180468D42CAAEC4300FD1B79 /* WatchTestApp 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468BB2CAAEC4300FD1B79 /* WatchTestApp 2.swift */; };
+		180468D52CAAEC4300FD1B79 /* watchtestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468BC2CAAEC4300FD1B79 /* watchtestApp.swift */; };
+		180468DE2CAAEE7800FD1B79 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468D62CAAEE7800FD1B79 /* CGFloatExtension.swift */; };
+		180468DF2CAAEE7800FD1B79 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468D72CAAEE7800FD1B79 /* ColorExtension.swift */; };
+		180468E02CAAEE7800FD1B79 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468D82CAAEE7800FD1B79 /* DateExtension.swift */; };
+		180468E12CAAEE7800FD1B79 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468D92CAAEE7800FD1B79 /* DoubleExtension.swift */; };
+		180468E22CAAEE7800FD1B79 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468DA2CAAEE7800FD1B79 /* FontExtension.swift */; };
+		180468E32CAAEE7800FD1B79 /* FormatStyleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468DB2CAAEE7800FD1B79 /* FormatStyleExtension.swift */; };
+		180468E42CAAEE7800FD1B79 /* HKWorkoutActivityTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468DC2CAAEE7800FD1B79 /* HKWorkoutActivityTypeExtension.swift */; };
+		180468E82CAAEEE700FD1B79 /* ActivitySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468E52CAAEEE700FD1B79 /* ActivitySummary.swift */; };
+		180468E92CAAEEE700FD1B79 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468E62CAAEEE700FD1B79 /* Workout.swift */; };
+		180468EC2CAAEF8900FD1B79 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180468EA2CAAEF8900FD1B79 /* WatchConnectivityManager.swift */; };
+		1804698E2CAAF6E200FD1B79 /* SelectCharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804698D2CAAF6E200FD1B79 /* SelectCharView.swift */; };
+		180469902CAB198B00FD1B79 /* SelectOutfitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804698F2CAB198B00FD1B79 /* SelectOutfitView.swift */; };
+		180469942CAB1D0F00FD1B79 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180469932CAB1D0F00FD1B79 /* ActivitiesView.swift */; };
+		180469962CAB283900FD1B79 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180469952CAB283900FD1B79 /* GamesView.swift */; };
+		180469982CAB2A7C00FD1B79 /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180469972CAB2A7C00FD1B79 /* ColorConverter.swift */; };
+		1804699A2CAB2C8600FD1B79 /* BadRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180469992CAB2C8600FD1B79 /* BadRoom.swift */; };
+		1804699C2CAB305C00FD1B79 /* SelectGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804699B2CAB305C00FD1B79 /* SelectGameView.swift */; };
+		182130072CDE3D9D0046B0AD /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182130062CDE3D9D0046B0AD /* ActivityViewModel.swift */; };
+		182130092CDE3E9C0046B0AD /* ExperessionBasedActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182130082CDE3E9C0046B0AD /* ExperessionBasedActivityView.swift */; };
+		18276D892CBAA63B0099E92C /* HealthManger .swift in Sources */ = {isa = PBXBuildFile; fileRef = 18276D882CBAA63B0099E92C /* HealthManger .swift */; };
+		1830765D2CCBD579009FB865 /* HomeHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830765C2CCBD579009FB865 /* HomeHostingController.swift */; };
+		183076652CCBF723009FB865 /* Digitalt_spec.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 183076602CCBF723009FB865 /* Digitalt_spec.pdf */; };
+		183076662CCBF723009FB865 /* Digitalt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 183076612CCBF723009FB865 /* Digitalt.otf */; };
+		183076672CCBF723009FB865 /* Digitalt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 183076622CCBF723009FB865 /* Digitalt.ttf */; };
+		183076682CCBF723009FB865 /* OFL_License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 183076632CCBF723009FB865 /* OFL_License.txt */; };
+		1830766A2CCC0FED009FB865 /* ArabianManAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183076692CCC0FED009FB865 /* ArabianManAnimation.swift */; };
+		184AA9262CAEA6B0007E4C44 /* WallDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA9252CAEA6B0007E4C44 /* WallDropView.swift */; };
+		184AA9282CAEC4F4007E4C44 /* HealthMangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA9272CAEC4F4007E4C44 /* HealthMangerView.swift */; };
+		184AA92A2CAED31A007E4C44 /* ActivitiesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA9292CAED31A007E4C44 /* ActivitiesDetails.swift */; };
+		184AA92C2CAEFB3E007E4C44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA92B2CAEFB3E007E4C44 /* HomeView.swift */; };
+		184BF1092CB5830800DD9141 /* TiredCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BF1082CB5830800DD9141 /* TiredCharacterView.swift */; };
+		1862FEE62CB2AA5100B486C4 /* ArabianMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862FEE52CB2AA5100B486C4 /* ArabianMan.swift */; };
+		187954EA2CC6D95B00BF800D /* WallDropView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187954E92CC6D95B00BF800D /* WallDropView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +88,70 @@
 
 /* Begin PBXFileReference section */
 		1804686B2CAAEC0E00FD1B79 /* Baku Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baku Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuApp.swift; sourceTree = "<group>"; };
-		180468702CAAEC0E00FD1B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		180468722CAAEC0F00FD1B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1804687B2CAAEC0F00FD1B79 /* Baku Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baku Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804687F2CAAEC0F00FD1B79 /* Baku_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppTests.swift; sourceTree = "<group>"; };
 		180468852CAAEC0F00FD1B79 /* Baku Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baku Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180468892CAAEC0F00FD1B79 /* Baku_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baku_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		180468982CAAEC4300FD1B79 /* BedroomView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomView1.swift; sourceTree = "<group>"; };
+		180468992CAAEC4300FD1B79 /* BedroomView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomView2.swift; sourceTree = "<group>"; };
+		1804689A2CAAEC4300FD1B79 /* BedroomView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomView3.swift; sourceTree = "<group>"; };
+		1804689B2CAAEC4300FD1B79 /* BedroomView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomView4.swift; sourceTree = "<group>"; };
+		1804689C2CAAEC4300FD1B79 /* BedroomView5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomView5.swift; sourceTree = "<group>"; };
+		1804689E2CAAEC4300FD1B79 /* ActivityRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
+		180468A02CAAEC4300FD1B79 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		180468A22CAAEC4300FD1B79 /* CustomView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView1.swift; sourceTree = "<group>"; };
+		180468A32CAAEC4300FD1B79 /* CustomView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView2.swift; sourceTree = "<group>"; };
+		180468A42CAAEC4300FD1B79 /* CustomView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView3.swift; sourceTree = "<group>"; };
+		180468A62CAAEC4300FD1B79 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		180468A72CAAEC4300FD1B79 /* MetricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		180468A92CAAEC4300FD1B79 /* SessionPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		180468AB2CAAEC4300FD1B79 /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		180468AD2CAAEC4300FD1B79 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		180468AF2CAAEC4300FD1B79 /* SummaryMetricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryMetricView.swift; sourceTree = "<group>"; };
+		180468B12CAAEC4300FD1B79 /* SummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		180468B42CAAEC4300FD1B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		180468B62CAAEC4300FD1B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180468B72CAAEC4300FD1B79 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		180468B82CAAEC4300FD1B79 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		180468B92CAAEC4300FD1B79 /* WatchCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCommunicationManager.swift; sourceTree = "<group>"; };
+		180468BA2CAAEC4300FD1B79 /* WatchTest Watch App.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "WatchTest Watch App.entitlements"; sourceTree = "<group>"; };
+		180468BB2CAAEC4300FD1B79 /* WatchTestApp 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WatchTestApp 2.swift"; sourceTree = "<group>"; };
+		180468BC2CAAEC4300FD1B79 /* watchtestApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = watchtestApp.swift; sourceTree = "<group>"; };
+		180468D62CAAEE7800FD1B79 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		180468D72CAAEE7800FD1B79 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		180468D82CAAEE7800FD1B79 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		180468D92CAAEE7800FD1B79 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		180468DA2CAAEE7800FD1B79 /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		180468DB2CAAEE7800FD1B79 /* FormatStyleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatStyleExtension.swift; sourceTree = "<group>"; };
+		180468DC2CAAEE7800FD1B79 /* HKWorkoutActivityTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKWorkoutActivityTypeExtension.swift; sourceTree = "<group>"; };
+		180468E52CAAEEE700FD1B79 /* ActivitySummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySummary.swift; sourceTree = "<group>"; };
+		180468E62CAAEEE700FD1B79 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		180468EA2CAAEF8900FD1B79 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		1804698D2CAAF6E200FD1B79 /* SelectCharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCharView.swift; sourceTree = "<group>"; };
+		1804698F2CAB198B00FD1B79 /* SelectOutfitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOutfitView.swift; sourceTree = "<group>"; };
+		180469932CAB1D0F00FD1B79 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		180469952CAB283900FD1B79 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		180469972CAB2A7C00FD1B79 /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
+		180469992CAB2C8600FD1B79 /* BadRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadRoom.swift; sourceTree = "<group>"; };
+		1804699B2CAB305C00FD1B79 /* SelectGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGameView.swift; sourceTree = "<group>"; };
+		182130062CDE3D9D0046B0AD /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		182130082CDE3E9C0046B0AD /* ExperessionBasedActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperessionBasedActivityView.swift; sourceTree = "<group>"; };
+		18276D872CBA7DC50099E92C /* Baku-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Baku-Watch-App-Info.plist"; sourceTree = "<group>"; };
+		18276D882CBAA63B0099E92C /* HealthManger .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthManger .swift"; sourceTree = "<group>"; };
+		1830765C2CCBD579009FB865 /* HomeHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHostingController.swift; sourceTree = "<group>"; };
+		183076602CCBF723009FB865 /* Digitalt_spec.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Digitalt_spec.pdf; sourceTree = "<group>"; };
+		183076612CCBF723009FB865 /* Digitalt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Digitalt.otf; sourceTree = "<group>"; };
+		183076622CCBF723009FB865 /* Digitalt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Digitalt.ttf; sourceTree = "<group>"; };
+		183076632CCBF723009FB865 /* OFL_License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL_License.txt; sourceTree = "<group>"; };
+		183076692CCC0FED009FB865 /* ArabianManAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabianManAnimation.swift; sourceTree = "<group>"; };
+		184AA9252CAEA6B0007E4C44 /* WallDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallDropView.swift; sourceTree = "<group>"; };
+		184AA9272CAEC4F4007E4C44 /* HealthMangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMangerView.swift; sourceTree = "<group>"; };
+		184AA9292CAED31A007E4C44 /* ActivitiesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesDetails.swift; sourceTree = "<group>"; };
+		184AA92B2CAEFB3E007E4C44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		184BF1082CB5830800DD9141 /* TiredCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiredCharacterView.swift; sourceTree = "<group>"; };
+		1862FEE52CB2AA5100B486C4 /* ArabianMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabianMan.swift; sourceTree = "<group>"; };
+		187954E92CC6D95B00BF800D /* WallDropView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallDropView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +182,8 @@
 		180468622CAAEC0D00FD1B79 = {
 			isa = PBXGroup;
 			children = (
-				1804686D2CAAEC0E00FD1B79 /* Baku Watch App */,
+				18276D872CBA7DC50099E92C /* Baku-Watch-App-Info.plist */,
+				180468BD2CAAEC4300FD1B79 /* watchtest Watch App */,
 				1804687E2CAAEC0F00FD1B79 /* Baku Watch AppTests */,
 				180468882CAAEC0F00FD1B79 /* Baku Watch AppUITests */,
 				1804686C2CAAEC0E00FD1B79 /* Products */,
@@ -89,25 +198,6 @@
 				180468852CAAEC0F00FD1B79 /* Baku Watch AppUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1804686D2CAAEC0E00FD1B79 /* Baku Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				1804686E2CAAEC0E00FD1B79 /* BakuApp.swift */,
-				180468702CAAEC0E00FD1B79 /* ContentView.swift */,
-				180468722CAAEC0F00FD1B79 /* Assets.xcassets */,
-				180468742CAAEC0F00FD1B79 /* Preview Content */,
-			);
-			path = "Baku Watch App";
-			sourceTree = "<group>";
-		};
-		180468742CAAEC0F00FD1B79 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				180468752CAAEC0F00FD1B79 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		1804687E2CAAEC0F00FD1B79 /* Baku Watch AppTests */ = {
@@ -125,6 +215,208 @@
 				1804688B2CAAEC0F00FD1B79 /* Baku_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Baku Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		1804689D2CAAEC4300FD1B79 /* BedRoom */ = {
+			isa = PBXGroup;
+			children = (
+				180468982CAAEC4300FD1B79 /* BedroomView1.swift */,
+				180468992CAAEC4300FD1B79 /* BedroomView2.swift */,
+				1804689A2CAAEC4300FD1B79 /* BedroomView3.swift */,
+				1804689B2CAAEC4300FD1B79 /* BedroomView4.swift */,
+				1804689C2CAAEC4300FD1B79 /* BedroomView5.swift */,
+			);
+			path = BedRoom;
+			sourceTree = "<group>";
+		};
+		1804689F2CAAEC4300FD1B79 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1804689E2CAAEC4300FD1B79 /* ActivityRingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		180468A12CAAEC4300FD1B79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				180468A02CAAEC4300FD1B79 /* WorkoutManager.swift */,
+				18276D882CBAA63B0099E92C /* HealthManger .swift */,
+				1830765C2CCBD579009FB865 /* HomeHostingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		180468A52CAAEC4300FD1B79 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				180468A22CAAEC4300FD1B79 /* CustomView1.swift */,
+				180468A32CAAEC4300FD1B79 /* CustomView2.swift */,
+				180468A42CAAEC4300FD1B79 /* CustomView3.swift */,
+				1804698D2CAAF6E200FD1B79 /* SelectCharView.swift */,
+				1804698F2CAB198B00FD1B79 /* SelectOutfitView.swift */,
+				180469932CAB1D0F00FD1B79 /* ActivitiesView.swift */,
+				180469952CAB283900FD1B79 /* GamesView.swift */,
+				1804699B2CAB305C00FD1B79 /* SelectGameView.swift */,
+				180469992CAB2C8600FD1B79 /* BadRoom.swift */,
+				184AA9252CAEA6B0007E4C44 /* WallDropView.swift */,
+				184AA9272CAEC4F4007E4C44 /* HealthMangerView.swift */,
+				184AA9292CAED31A007E4C44 /* ActivitiesDetails.swift */,
+				184AA92B2CAEFB3E007E4C44 /* HomeView.swift */,
+				187954E92CC6D95B00BF800D /* WallDropView2.swift */,
+				182130082CDE3E9C0046B0AD /* ExperessionBasedActivityView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		180468A82CAAEC4300FD1B79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180468A62CAAEC4300FD1B79 /* ControlView.swift */,
+				180468A72CAAEC4300FD1B79 /* MetricsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		180468AA2CAAEC4300FD1B79 /* SessionPaging */ = {
+			isa = PBXGroup;
+			children = (
+				180468A82CAAEC4300FD1B79 /* Views */,
+				180468A92CAAEC4300FD1B79 /* SessionPagingView.swift */,
+			);
+			path = SessionPaging;
+			sourceTree = "<group>";
+		};
+		180468AC2CAAEC4300FD1B79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180468AB2CAAEC4300FD1B79 /* WorkoutCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		180468AE2CAAEC4300FD1B79 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				180468AC2CAAEC4300FD1B79 /* Views */,
+				180468AD2CAAEC4300FD1B79 /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		180468B02CAAEC4300FD1B79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180468AF2CAAEC4300FD1B79 /* SummaryMetricView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		180468B22CAAEC4300FD1B79 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				180468B02CAAEC4300FD1B79 /* Views */,
+				180468B12CAAEC4300FD1B79 /* SummaryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		180468B32CAAEC4300FD1B79 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				180468AA2CAAEC4300FD1B79 /* SessionPaging */,
+				180468AE2CAAEC4300FD1B79 /* Start */,
+				180468B22CAAEC4300FD1B79 /* Summary */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		180468B52CAAEC4300FD1B79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				180468B42CAAEC4300FD1B79 /* Preview Assets.xcassets */,
+				184BF1082CB5830800DD9141 /* TiredCharacterView.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		180468BD2CAAEC4300FD1B79 /* watchtest Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				182130052CDE3D7C0046B0AD /* ViewModel */,
+				183076642CCBF723009FB865 /* digitalt */,
+				180468EB2CAAEF8900FD1B79 /* Watch Communication */,
+				180468E72CAAEEE700FD1B79 /* Models */,
+				180468DD2CAAEE7800FD1B79 /* Extensions */,
+				1804689D2CAAEC4300FD1B79 /* BedRoom */,
+				1804689F2CAAEC4300FD1B79 /* Components */,
+				180468A12CAAEC4300FD1B79 /* Controllers */,
+				180468A52CAAEC4300FD1B79 /* HomeScreen */,
+				180468B32CAAEC4300FD1B79 /* Modules */,
+				180468B52CAAEC4300FD1B79 /* Preview Content */,
+				180468B62CAAEC4300FD1B79 /* Assets.xcassets */,
+				180468B72CAAEC4300FD1B79 /* ContentView.swift */,
+				180468B82CAAEC4300FD1B79 /* SplashScreen.swift */,
+				180468B92CAAEC4300FD1B79 /* WatchCommunicationManager.swift */,
+				180468BA2CAAEC4300FD1B79 /* WatchTest Watch App.entitlements */,
+				180468BB2CAAEC4300FD1B79 /* WatchTestApp 2.swift */,
+				180468BC2CAAEC4300FD1B79 /* watchtestApp.swift */,
+				1862FEE52CB2AA5100B486C4 /* ArabianMan.swift */,
+				183076692CCC0FED009FB865 /* ArabianManAnimation.swift */,
+			);
+			name = "watchtest Watch App";
+			path = "../../../bakucompanionapp-main 2/ios/watchtest Watch App";
+			sourceTree = "<group>";
+		};
+		180468DD2CAAEE7800FD1B79 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				180468D62CAAEE7800FD1B79 /* CGFloatExtension.swift */,
+				180468D72CAAEE7800FD1B79 /* ColorExtension.swift */,
+				180468D82CAAEE7800FD1B79 /* DateExtension.swift */,
+				180468D92CAAEE7800FD1B79 /* DoubleExtension.swift */,
+				180468DA2CAAEE7800FD1B79 /* FontExtension.swift */,
+				180468DB2CAAEE7800FD1B79 /* FormatStyleExtension.swift */,
+				180468DC2CAAEE7800FD1B79 /* HKWorkoutActivityTypeExtension.swift */,
+				180469972CAB2A7C00FD1B79 /* ColorConverter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		180468E72CAAEEE700FD1B79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				180468E52CAAEEE700FD1B79 /* ActivitySummary.swift */,
+				180468E62CAAEEE700FD1B79 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		180468EB2CAAEF8900FD1B79 /* Watch Communication */ = {
+			isa = PBXGroup;
+			children = (
+				180468EA2CAAEF8900FD1B79 /* WatchConnectivityManager.swift */,
+			);
+			path = "Watch Communication";
+			sourceTree = "<group>";
+		};
+		182130052CDE3D7C0046B0AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				182130062CDE3D9D0046B0AD /* ActivityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		183076642CCBF723009FB865 /* digitalt */ = {
+			isa = PBXGroup;
+			children = (
+				183076602CCBF723009FB865 /* Digitalt_spec.pdf */,
+				183076612CCBF723009FB865 /* Digitalt.otf */,
+				183076622CCBF723009FB865 /* Digitalt.ttf */,
+				183076632CCBF723009FB865 /* OFL_License.txt */,
+			);
+			path = digitalt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +523,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180468762CAAEC0F00FD1B79 /* Preview Assets.xcassets in Resources */,
-				180468732CAAEC0F00FD1B79 /* Assets.xcassets in Resources */,
+				183076662CCBF723009FB865 /* Digitalt.otf in Resources */,
+				180468D02CAAEC4300FD1B79 /* Assets.xcassets in Resources */,
+				183076672CCBF723009FB865 /* Digitalt.ttf in Resources */,
+				183076652CCBF723009FB865 /* Digitalt_spec.pdf in Resources */,
+				180468CF2CAAEC4300FD1B79 /* Preview Assets.xcassets in Resources */,
+				183076682CCBF723009FB865 /* OFL_License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +553,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180468712CAAEC0E00FD1B79 /* ContentView.swift in Sources */,
-				1804686F2CAAEC0E00FD1B79 /* BakuApp.swift in Sources */,
+				180468C12CAAEC4300FD1B79 /* BedroomView4.swift in Sources */,
+				180468D52CAAEC4300FD1B79 /* watchtestApp.swift in Sources */,
+				180468CB2CAAEC4300FD1B79 /* WorkoutCell.swift in Sources */,
+				180468E92CAAEEE700FD1B79 /* Workout.swift in Sources */,
+				180468DF2CAAEE7800FD1B79 /* ColorExtension.swift in Sources */,
+				184AA9262CAEA6B0007E4C44 /* WallDropView.swift in Sources */,
+				180468D32CAAEC4300FD1B79 /* WatchCommunicationManager.swift in Sources */,
+				180468C42CAAEC4300FD1B79 /* WorkoutManager.swift in Sources */,
+				180468C82CAAEC4300FD1B79 /* ControlView.swift in Sources */,
+				1862FEE62CB2AA5100B486C4 /* ArabianMan.swift in Sources */,
+				180468C02CAAEC4300FD1B79 /* BedroomView3.swift in Sources */,
+				180468E12CAAEE7800FD1B79 /* DoubleExtension.swift in Sources */,
+				180468EC2CAAEF8900FD1B79 /* WatchConnectivityManager.swift in Sources */,
+				187954EA2CC6D95B00BF800D /* WallDropView2.swift in Sources */,
+				180468C52CAAEC4300FD1B79 /* CustomView1.swift in Sources */,
+				180468CC2CAAEC4300FD1B79 /* StartView.swift in Sources */,
+				180468BF2CAAEC4300FD1B79 /* BedroomView2.swift in Sources */,
+				180468E02CAAEE7800FD1B79 /* DateExtension.swift in Sources */,
+				184BF1092CB5830800DD9141 /* TiredCharacterView.swift in Sources */,
+				184AA92C2CAEFB3E007E4C44 /* HomeView.swift in Sources */,
+				180468C62CAAEC4300FD1B79 /* CustomView2.swift in Sources */,
+				184AA9282CAEC4F4007E4C44 /* HealthMangerView.swift in Sources */,
+				180469982CAB2A7C00FD1B79 /* ColorConverter.swift in Sources */,
+				180468D42CAAEC4300FD1B79 /* WatchTestApp 2.swift in Sources */,
+				180468CA2CAAEC4300FD1B79 /* SessionPagingView.swift in Sources */,
+				18276D892CBAA63B0099E92C /* HealthManger .swift in Sources */,
+				180469962CAB283900FD1B79 /* GamesView.swift in Sources */,
+				180468BE2CAAEC4300FD1B79 /* BedroomView1.swift in Sources */,
+				180469942CAB1D0F00FD1B79 /* ActivitiesView.swift in Sources */,
+				180468E82CAAEEE700FD1B79 /* ActivitySummary.swift in Sources */,
+				180468CE2CAAEC4300FD1B79 /* SummaryView.swift in Sources */,
+				1830765D2CCBD579009FB865 /* HomeHostingController.swift in Sources */,
+				1804699C2CAB305C00FD1B79 /* SelectGameView.swift in Sources */,
+				180468C22CAAEC4300FD1B79 /* BedroomView5.swift in Sources */,
+				180468C32CAAEC4300FD1B79 /* ActivityRingView.swift in Sources */,
+				182130072CDE3D9D0046B0AD /* ActivityViewModel.swift in Sources */,
+				180468E32CAAEE7800FD1B79 /* FormatStyleExtension.swift in Sources */,
+				180468D12CAAEC4300FD1B79 /* ContentView.swift in Sources */,
+				1804699A2CAB2C8600FD1B79 /* BadRoom.swift in Sources */,
+				1830766A2CCC0FED009FB865 /* ArabianManAnimation.swift in Sources */,
+				180468D22CAAEC4300FD1B79 /* SplashScreen.swift in Sources */,
+				180468C92CAAEC4300FD1B79 /* MetricsView.swift in Sources */,
+				180468E42CAAEE7800FD1B79 /* HKWorkoutActivityTypeExtension.swift in Sources */,
+				180468DE2CAAEE7800FD1B79 /* CGFloatExtension.swift in Sources */,
+				180468E22CAAEE7800FD1B79 /* FontExtension.swift in Sources */,
+				182130092CDE3E9C0046B0AD /* ExperessionBasedActivityView.swift in Sources */,
+				1804698E2CAAF6E200FD1B79 /* SelectCharView.swift in Sources */,
+				180468C72CAAEC4300FD1B79 /* CustomView3.swift in Sources */,
+				180468CD2CAAEC4300FD1B79 /* SummaryMetricView.swift in Sources */,
+				180469902CAB198B00FD1B79 /* SelectOutfitView.swift in Sources */,
+				184AA92A2CAED31A007E4C44 /* ActivitiesDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +761,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Baku Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = CZAAVN9JAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baku-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Baku;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to HealthKit to track and save workout data such as your exercise activities and health metrics";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,11 +793,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Baku Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = CZAAVN9JAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baku-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Baku;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to HealthKit to track and save workout data such as your exercise activities and health metrics";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
 				LD_RUNPATH_SEARCH_PATHS = (
